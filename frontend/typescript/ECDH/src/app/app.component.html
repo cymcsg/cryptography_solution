@@ -1,0 +1,48 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <div>A Side public key--->pem</div>
+  <div>
+    <button  (click)="generate_A()">generate_A</button>
+  </div>
+  <textarea   class="container" id="key_a" style="word-break:break-all"></textarea>
+</div>
+
+<div>
+
+<div>
+<div>B Side public key--->pem</div>
+  <div>
+    <button  (click)="generate_B()">generate_B</button>
+  </div>
+  <textarea   class="container" id="key_b" style="word-break:break-all"></textarea>
+</div>
+
+<div>
+<div>A's pub_key + B's pri_key->share_key</div>
+<div>
+  <button  (click)="share_key_A()">share_key_A</button>
+</div>
+<textarea   class="container" id="share_key_pubA_priB" style="word-break:break-all"></textarea>
+</div>
+
+<div>
+<div> B's pub_keu + A's pri_key->share_key</div>
+<div>
+  <button  (click)="share_key_B()">share_key_B</button>
+</div>
+<textarea   class="container" id="share_key_pubB_priA" style="word-break:break-all"></textarea>
+</div>
+
+
+  <div>
+    <div>AES Encryption</div>
+    <div>
+      <label>Plaintext：hello aes</label>
+    </div>
+    <div>
+      <button  (click)="aes_encry()">AES Encryption</button>
+    </div>
+
+    <textarea   class="container" id="aes_encry" style="word-break:break-all"></textarea>
+  </div>
+</div>
