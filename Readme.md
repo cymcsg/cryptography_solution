@@ -22,3 +22,32 @@ Communication:
 
 在我们的日常生产中，我们经常需要服务器端和前端（包括Web端，iOS端和Android端）之间的合作。 转移和存储密码和令牌也是我们需要面对的问题。 所以 **Cryptography Solution**来了。 它为**服务器端和前端（包括Web端，iOS端和Android端）提**供加密解决方案。
 
+
+
+Team:
+
+[Marshal Chen](https://github.com/cymcsg)
+
+[Four](https://github.com/wjmwjmwb)
+
+David Zhang
+
+Wenjing
+
+## License
+
+``` 
+Copyright 2014-present Marshal Chen
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
